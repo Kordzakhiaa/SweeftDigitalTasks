@@ -37,7 +37,7 @@ def count_words() -> None:
     input_quantity: int = int(input('Enter the number of words you are going to input: '))
 
     for i in range(input_quantity):
-        user_input: str = input(f'Word - {i + 1}: ')
+        user_input: str = input(f'Word - {i + 1}: ').lower()
         list_of_words.append(user_input)
 
     counted_words: dict = {item: list_of_words.count(item) for item in list_of_words}  # DICT COMPREHENSION
