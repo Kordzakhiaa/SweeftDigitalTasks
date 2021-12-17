@@ -5,7 +5,7 @@ from typing import Optional
 from django.conf import settings
 from django.http import Http404
 
-from short.models import UrlShortener
+from urlshortener.models import UrlShortener
 
 
 def url_shortening(long_url: str, premium_client_string: Optional[str] = None) -> str:
