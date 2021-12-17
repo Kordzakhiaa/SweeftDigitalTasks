@@ -6,3 +6,4 @@
 <li align="center"><b>pip install -r requirements.txt</b></li>
 <br>
 <p align="center"><b>Run Server: </b>python manage.py runserver</p>
+<p><b>Authentication Class</b>: simple-JWT (Json Web Token)</p>

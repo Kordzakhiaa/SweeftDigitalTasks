@@ -30,6 +30,7 @@ INSTALLED_APPS = [
 
     # custom app
     'accounts.apps.AccountsConfig',
+    'urlshortener.apps.UrlshortenerConfig',
 ]
 
 REST_FRAMEWORK = {
